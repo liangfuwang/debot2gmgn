@@ -1,3 +1,5 @@
 {
-"rewrites": [{ "source": "/:path*", "destination": "/wallet-converter.html" }]
+  "rewrites":  [
+    {"source": "/(.*)", "destination": "/"}
+  ]
 }
